@@ -6,10 +6,10 @@ String config; // ─ , │ , ┐ , └ ,  ┌ , ┘
 
 
 
-public Tile(boolean movable, Type type , String config){
+public Tile(boolean movable, Type type){
 	this.movable = movable;
 	this.type = type;
-	this.config = config;
+	//this.config = config;
 }
 
 public boolean isMovable() {
